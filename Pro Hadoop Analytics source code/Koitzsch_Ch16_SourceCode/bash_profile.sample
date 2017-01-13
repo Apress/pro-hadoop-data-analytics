@@ -1,0 +1,21 @@
+# Sample .bash_profile file for MacOS as a starting point for setting your own project environment variables.
+# most of the hadoop ecosystem components have their own '_HOME' variable, some may be set explicitly here.
+# Others may be set automatically by the software setup itself, so check environment with 'printenv'
+
+export PROBDA_HOME=/Users/yournamehere/probda
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home
+
+export MAVEN_HOME=/Users/yournamehere/Downloads/apache-maven-3.3.9
+export ANT_HOME=/Users/yournamehere/Downloads/apache-ant-1.9.7
+export HADOOP_HOME=/Users/yournamehere/Downloads/hadoop-2.7.2
+export HIVE_HOME=/Users/yournamehere/Downloads/apache-hive-2.1.0-bin
+export CATALINA_HOME=/Users/yournamehere/Downloads/apache-tomcat-8.5.4
+export SPARK_HOME=/Users/yournamehere/Downloads/spark-1.6.2
+export HBASE_HOME=/Users/yournamehere/Downloads/hbase-1.0.3
+export R_HOME=
+export MAHOUT_HOME=
+export KATTA_HOME=
+export PATH=$SPARK_HOME/bin:$CATALINA_HOME/bin:$HIVE_HOME/bin:$HADOOP_HOME/bin:$ANT_HOME/bin:$MAVEN_HOME/bin:$PATH
+
+
+

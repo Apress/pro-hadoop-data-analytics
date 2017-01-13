@@ -1,0 +1,26 @@
+README file for Code Contributions, Chapter 1, Pro Hadoop Data Analytics, K. Koitzsch
+
+The code example in the first chapter shows a way of quickly interfacing to image processing toolkits in order to visualize results from image as big data experiments. Of course this is one of the most simple image visualizations, but it can easily be extended using the sophisticate analytics available to you in Mahout, HIPI, BoofCV, deeplearning4j and other toolkits.
+
+Please note that the included pom.xml file will contain many of the analytics and "building block" components you can use to build a complete system, including components to import, process, and export and visualize data sets.
+
+From the source code directory, do:
+
+     mvn clean install
+
+If using the Eclipse IDE, then do the following maven command on the command line:
+
+     mvn eclipse:eclipse
+
+Import the existing maven project into eclipse in the usual way. If you have other probda components loaded, you may need to add a 'name template' addition when you import the project. 
+
+When your project is imported correctly, select "Run configurations" from the right click menu on the project in the usual way: add the image you wish to operate upon to the 'Program arguments'. 
+
+Two images are provided for you to experiment on in the images/ subdirectory.
+
+Refer to wikis and standard documentation on BoofCV, OpenCV, HIPI, Deeplearning4j, Mahout, and JAI to extend your image analytics!
+
+
+
+
+

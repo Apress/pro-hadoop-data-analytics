@@ -1,0 +1,5 @@
+README for Chapter 16: Conclusions
+
+Chapter 16 has no explicit source code, but some sample setup files are included here, including a pom.xml similar to the one we have been using throughout the book. Be sure to set an appropriate environment variable setup file which may be executed automatically to enable a working Hadoop environment. The bash_profile.example file shown here is suitable for Mac OS X. Rename the file '.bash_profile' if you wish the file to be executed automatically in the Mac environment, and place the file in the appropriate start-up directory as needed.
+
+Please refer to Appendix A and Appendix B for additional details on sample projects and setup.

@@ -1,0 +1,13 @@
+README File for Chapter 6: 
+
+One of the most interesting applications of search techniques regardless of the technology used --- Lucene, ElasticSearch, Solr, or others --- is in cooperation with the wide range of natural-language-processing (NLP) libraries which are available. 
+
+To run the example, go to the chapter 6 source directory and do
+
+   mvn clean package
+
+in the usual way. Prepare the project for Eclipse (if that's the IDE you are using) with
+   
+   mvn eclipse:eclipse
+
+Then import into Eclipse as a Maven project in the usual way. You should be able to run the LingPipe example directly from the 'Run Java Application' option on the Eclipse project. The com.apress.probda.nlp.LingPipeExample class will print out a simple parse of the hardwired sentence. You can modify the program to include relatively sophisticated integration with Hadoop. See    http://alias-i.com/lingpipe/web/competition.html and https://github.com/wpm/Hadoop-GATE for details on how this might be accomplished.
