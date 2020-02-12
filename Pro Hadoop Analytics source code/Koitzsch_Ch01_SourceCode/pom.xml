@@ -14,7 +14,7 @@
 	<properties>
 		<beam.version>0.4.0-incubating-SNAPSHOT</beam.version>
 		<kudu.parent.version>1.0.0</kudu.parent.version>
-		<solr.core.version>6.3.0</solr.core.version>
+		<solr.core.version>8.4.0</solr.core.version>
 		<spring.neo4j.version>4.1.6.RELEASE</spring.neo4j.version>
 		<spring.elasticsearch.version>2.0.5.RELEASE</spring.elasticsearch.version>
 		<nd4j.backend>nd4j-native</nd4j.backend>
