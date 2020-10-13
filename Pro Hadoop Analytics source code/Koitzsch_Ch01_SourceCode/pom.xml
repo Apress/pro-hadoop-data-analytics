@@ -26,7 +26,7 @@
 		<drools.core.version>6.2.0.Final</drools.core.version>
 		<spring.integration.version>4.3.6.RELEASE</spring.integration.version>
 		<java.version>1.7</java.version>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<nd4j.version>0.4-rc3.10</nd4j.version>
 		<dl4j.version>0.4-rc3.10</dl4j.version>
 		<canova.version>0.0.0.16</canova.version>
